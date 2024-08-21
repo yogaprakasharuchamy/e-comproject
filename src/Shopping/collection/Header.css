@@ -1,0 +1,54 @@
+/* Header.css */
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.left .flip h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+}
+
+.center div {
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.center div:hover {
+    color: #ffcc00;
+}
+
+.search input[type="text"] {
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.signin, .cart {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.signin:hover, .cart:hover {
+    color: #ffcc00;
+}
